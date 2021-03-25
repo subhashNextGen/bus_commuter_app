@@ -169,6 +169,13 @@ public class MYdb extends SQLiteOpenHelper {
         db.close();
     }
 
+    public void dropBaseFareTable(){
+        SQLiteDatabase db = this.getWritableDatabase();
+        int deletedRows = db.delete(BaseFare.fareTableName,
+                null, null);
+        db.close();
+    }
+
 //    public int getStationId(String stationName){
 //
 //        int id = 0;

@@ -31,17 +31,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f75090b3-6ea3-4d22-a542-5b3351cc8263" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/activity/LoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/activity/LoginActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/activity/RegistrationActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/activity/RegistrationActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/utils/PermissionManagerUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/utils/PermissionManagerUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/myDataBase/MYdb.java" beforeDir="false" afterPath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/myDataBase/MYdb.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -617,7 +610,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616678962362</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="First Commit">
+      <created>1616696765899</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1616696765899</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -734,10 +734,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="476" y="110" key="AndroidProcessChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1614259681596" />
-    <state x="145" y="0" key="CommitChangelistDialog2" timestamp="1616678958126">
+    <state x="145" y="0" key="CommitChangelistDialog2" timestamp="1616696763843">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="145" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1616678958126" />
+    <state x="145" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1616696763843" />
     <state x="363" y="118" key="Downloadable.Font.Dialog.Size" timestamp="1613986623259">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -766,10 +766,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="144" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1616677434300" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1616679137318">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1616696775890">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1616679137318" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1616696775890" />
     <state x="499" y="141" key="chooseDestDirectoryDialog" timestamp="1613468180030">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

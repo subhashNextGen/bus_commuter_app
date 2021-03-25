@@ -94,11 +94,15 @@ public class RegistrationActivity extends Activity {
             @Override
             public void onClick(View view) {
                 if (isvalidation()) {
-                    progressdialog =new SpotsDialog(RegistrationActivity.this,R.style.CustomDialogue);
-                    progressdialog.show();
-                    p.showPhoneStatePermission();
-                    loadData();
-                    registrationController.registerUser(firstName, lastName, mobileNo, email, password, address, city, state, pincode);
+                    if (cd.isConnectingToInternet()) {
+                        if (new PermissionManagerUtil(RegistrationActivity.this).checkPhoneStatePermission()) {
+                            progressdialog = new SpotsDialog(RegistrationActivity.this, R.style.CustomDialogue);
+                            progressdialog.show();
+                            p.showPhoneStatePermission();
+                            loadData();
+                            registrationController.registerUser(firstName, lastName, mobileNo, email, password, address, city, state, pincode);
+                        }
+                    }
                 }
             }
         });
@@ -201,7 +205,7 @@ public class RegistrationActivity extends Activity {
         if (requestCode == REQUEST_PERMISSION_PHONE_STATE) {
             if (grantResults.length > 0
                     && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                Toast.makeText(this, "Permission Granted!", Toast.LENGTH_SHORT).show();
+//                Toast.makeText(this, "Permission Granted!", Toast.LENGTH_SHORT).show();
             } else {
                 Toast.makeText(RegistrationActivity.this, "Permission Denied!", Toast.LENGTH_SHORT).show();
             }

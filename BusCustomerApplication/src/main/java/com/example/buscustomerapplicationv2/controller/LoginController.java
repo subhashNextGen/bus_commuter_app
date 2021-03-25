@@ -118,7 +118,7 @@ public class LoginController {
         String clientId = view.getResources().getString(R.string.clientID);
         jsonObject.addProperty("ClientId", clientId);
 
-
+mYdb.dropBaseFareTable();
         Call<Model_Base_Fare> call = apiInterface.getFare(jsonObject);
 
         call.enqueue(new Callback<Model_Base_Fare>() {
