@@ -1,0 +1,782 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config>
+        <target>android-21</target>
+      </config>
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:main" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f75090b3-6ea3-4d22-a542-5b3351cc8263" name="Default Changelist" comment="Commit" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="valueResourceFile" />
+        <option value="layoutResourceFile" />
+        <option value="resourceFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="C:\Users\subha\androidapkKeys\bus.jks" />
+    <option name="KEY_ALIAS" value="key0" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
+    <option name="BUILD_TARGET_KEY" value="apk" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="257adf83-4a43-43f5-8e96-69a240b5fb6b" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="master" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="TSubhashA" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="Metro_Application" />
+  </component>
+  <component name="ProjectId" id="1dqewyKPJG5pP4CGeSZrlSo7DsE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ApkExportedModule" value="Bus_Customer_Application.BusCustomerApplication" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Pixel_3a_API_30_x86" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-03-25T05:40:58.192Z" />
+    <property name="ExportApk.ApkPath" value="E:\Telpo\New folder\New folder\MetroApplication\app" />
+    <property name="ExportApk.BuildVariants" value="debug" />
+    <property name="ExportApk.SignV1" value="true" />
+    <property name="ExportApk.SignV2" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ToolWindowCommit.ShowToolbar" value="false" />
+    <property name="ToolWindowFlutter Outline.ShowToolbar" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/BusCustomerApplication/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/new DB" />
+    <property name="project.structure.last.edited" value="Dependencies" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="PsdUISettings">
+    <option name="LAST_EDITED_BUILD_TYPE" value="release" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\MyNextgenProject\Bus_Customer_App_V2\BusCustomerApplication\src\main\res\drawable" />
+      <recent name="E:\MyNextgenProject\Bus_Customer_App_V2\BusCustomerApplication\src\main\java\com\example\buscustomerapplicationv2\models" />
+      <recent name="G:\New Github\Bus_Customer_APP\BusCustomerApplication\src\main\res\drawable" />
+      <recent name="G:\New Github\MMR_CustomerApp\app\src\main\assets\font" />
+      <recent name="G:\New Github\MMR_CustomerApp\app\src\main\res\font" />
+    </key>
+    <key name="android.template.packageName">
+      <recent name="com.example.metroapplication.Activity" />
+    </key>
+    <key name="android.template.-650933198">
+      <recent name="com.example.buscustomerapplicationv2.activity" />
+    </key>
+    <key name="android.template.742584355">
+      <recent name="com.example.buscustomerapplicationv2.activity" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.buscustomerapplicationv2" />
+    </key>
+    <key name="android.template.-1994307559">
+      <recent name="com.example.metroapplication.activity" />
+    </key>
+    <key name="android.template.1303920695">
+      <recent name="com.example.metroapplication.activity" />
+    </key>
+    <key name="android.template.1066507058">
+      <recent name="com.example.buscustomerapplicationv2.activity" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\MyNextgenProject\Bus_Customer_App_V2\BusCustomerApplication\src\main\assets" />
+      <recent name="E:\MyNextgenProject\Bus_Customer_App_V2\BusCustomerApplication\src\main\res\font" />
+      <recent name="E:\MyNextgenProject\Bus_Customer_App_V2\BusCustomerApplication\src\main\res\drawable" />
+      <recent name="E:\MyNextgenProject\Bus_Customer_App_V2\BusCustomerApplication\src\main\res\drawable\" />
+      <recent name="E:\MyNextgenProject\Bus_Customer_App_V2\BusCustomerApplication\src\main\res\drawable-v24" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.buscustomerapplicationv2.models" />
+      <recent name="com.example.buscustomerapplication.apis.apiModel" />
+      <recent name="com.example.metroapplication.apis.apiModel" />
+    </key>
+    <key name="android.template.1499992211">
+      <recent name="com.example.buscustomerapplicationv2" />
+      <recent name="com.example.buscustomerapplicationv2.activity" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Android App.app">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Metro Application-app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="Metro_Application.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="Bus_Customer_Application.BusCustomerApplication" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="-r -t" />
+      <option name="ALL_USERS" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Android App.app" />
+      <item itemvalue="Android App.Metro Application-app" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\subha\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f75090b3-6ea3-4d22-a542-5b3351cc8263" name="Default Changelist" comment="" />
+      <created>1593157292781</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593157292781</updated>
+    </task>
+    <task id="LOCAL-00001" summary="commit">
+      <created>1595432735874</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1595432735874</updated>
+    </task>
+    <task id="LOCAL-00002" summary="commit">
+      <created>1595480360646</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1595480360646</updated>
+    </task>
+    <task id="LOCAL-00003" summary="commit">
+      <created>1595481603097</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1595481603097</updated>
+    </task>
+    <task id="LOCAL-00004" summary="commit">
+      <created>1595869569198</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1595869569198</updated>
+    </task>
+    <task id="LOCAL-00005" summary="commit">
+      <created>1596992996622</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1596992996622</updated>
+    </task>
+    <task id="LOCAL-00006" summary="fixup! commit">
+      <created>1601899036889</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1601899036889</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fixup! commit">
+      <created>1601922930925</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1601922930925</updated>
+    </task>
+    <task id="LOCAL-00008" summary="fixup! commit">
+      <created>1601923013107</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1601923013107</updated>
+    </task>
+    <task id="LOCAL-00009" summary="fixup! commit">
+      <created>1601923625277</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1601923625277</updated>
+    </task>
+    <task id="LOCAL-00010" summary="fixup! commit">
+      <created>1601923636762</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1601923636762</updated>
+    </task>
+    <task id="LOCAL-00011" summary="fixup! commit">
+      <created>1601924060797</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1601924060797</updated>
+    </task>
+    <task id="LOCAL-00012" summary="second commit">
+      <created>1601925541713</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1601925541713</updated>
+    </task>
+    <task id="LOCAL-00013" summary="second commit">
+      <created>1601926119708</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1601926119708</updated>
+    </task>
+    <task id="LOCAL-00014" summary="second commit">
+      <created>1601926487107</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1601926487107</updated>
+    </task>
+    <task id="LOCAL-00015" summary="commit">
+      <created>1601926879377</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1601926879377</updated>
+    </task>
+    <task id="LOCAL-00016" summary="commit">
+      <created>1601926994362</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1601926994362</updated>
+    </task>
+    <task id="LOCAL-00017" summary="commit">
+      <created>1601927067156</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1601927067156</updated>
+    </task>
+    <task id="LOCAL-00018" summary="commit">
+      <created>1602184681592</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1602184681592</updated>
+    </task>
+    <task id="LOCAL-00019" summary="commit">
+      <created>1602189014836</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1602189014836</updated>
+    </task>
+    <task id="LOCAL-00020" summary="commit">
+      <created>1602270426482</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1602270426482</updated>
+    </task>
+    <task id="LOCAL-00021" summary="commit">
+      <created>1602272432483</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1602272432483</updated>
+    </task>
+    <task id="LOCAL-00022" summary="commit">
+      <created>1602486477892</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1602486477892</updated>
+    </task>
+    <task id="LOCAL-00023" summary="commit">
+      <created>1602488232157</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1602488232157</updated>
+    </task>
+    <task id="LOCAL-00024" summary="commit">
+      <created>1602488494367</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1602488494367</updated>
+    </task>
+    <task id="LOCAL-00025" summary="commit">
+      <created>1602492858518</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1602492858518</updated>
+    </task>
+    <task id="LOCAL-00026" summary="commit">
+      <created>1602783652383</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1602783652384</updated>
+    </task>
+    <task id="LOCAL-00027" summary="commit">
+      <created>1602923649642</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1602923649642</updated>
+    </task>
+    <task id="LOCAL-00028" summary="commit">
+      <created>1603136897835</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1603136897835</updated>
+    </task>
+    <task id="LOCAL-00029" summary="commit">
+      <created>1603385422642</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1603385422642</updated>
+    </task>
+    <task id="LOCAL-00030" summary="commit">
+      <created>1603443898607</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1603443898607</updated>
+    </task>
+    <task id="LOCAL-00031" summary="commit">
+      <created>1603453373143</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1603453373143</updated>
+    </task>
+    <task id="LOCAL-00032" summary="commit">
+      <created>1603552255754</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1603552255754</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Pass Api Integration">
+      <created>1603552316136</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1603552316136</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Pass Api Integration completed">
+      <created>1603654102718</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1603654102719</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Pass Api Integration completed">
+      <created>1603655383895</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1603655383895</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Pass Api Integration completed">
+      <created>1603655511674</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1603655511674</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Pass Api Integration completed">
+      <created>1603656578415</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1603656578416</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Commit After Pass">
+      <created>1603657438420</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1603657438420</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Commit After Pass">
+      <created>1603657581648</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1603657581648</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Commit After Pass">
+      <created>1603714526795</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1603714526795</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Commit After Pass">
+      <created>1603996845152</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1603996845152</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Commit After Pass">
+      <created>1606741116313</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1606741116313</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State />
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fixup! commit" />
+    <MESSAGE value="Merge branch 'master' of https://github.com/TSubhashA/Metro_Application&#10;&#10;# Conflicts:&#10;#&#9;app/release/output.json&#10;#&#9;app/src/androidTest/java/com/example/metroapplication/ExampleInstrumentedTest.java&#10;#&#9;app/src/main/java/com/example/metroapplication/activity/ChangePassword.java&#10;#&#9;app/src/main/java/com/example/metroapplication/activity/DetailActivity.java&#10;#&#9;app/src/main/java/com/example/metroapplication/activity/ForgetPassword.java&#10;#&#9;app/src/main/java/com/example/metroapplication/activity/HomeActivity.java&#10;#&#9;app/src/main/java/com/example/metroapplication/activity/JourneyPreviewActivity.java&#10;#&#9;app/src/main/java/com/example/metroapplication/activity/LoginActivity.java&#10;#&#9;app/src/main/java/com/example/metroapplication/activity/MainActivity.java&#10;#&#9;app/src/main/java/com/example/metroapplication/activity/MyPassQR.java&#10;#&#9;app/src/main/java/com/example/metroapplication/activity/MyProfileActivity.java&#10;#&#9;app/src/main/java/com/example/metroapplication/activity/MyTicketQR.java&#10;#&#9;app/src/main/java/com/example/metroapplication/activity/MyTripsActivity.java&#10;#&#9;app/src/main/java/com/example/metroapplication/activity/OtpActivity.java&#10;#&#9;app/src/main/java/com/example/metroapplication/activity/PassActivity.java&#10;#&#9;app/src/main/java/com/example/metroapplication/activity/PassPreviewActivity.java&#10;#&#9;app/src/main/java/com/example/metroapplication/activity/PostPaymentActivity.java&#10;#&#9;app/src/main/java/com/example/metroapplication/activity/RegistrationActivity.java&#10;#&#9;app/src/main/java/com/example/metroapplication/activity/ValueTicketActivity.java&#10;#&#9;app/src/main/java/com/example/metroapplication/activity/ValueTicketPreviewActivity.java&#10;#&#9;app/src/main/java/com/example/metroapplication/adapter/MyTripsAdapter.java&#10;#&#9;app/src/main/java/com/example/metroapplication/apis/ApiInterface.java&#10;#&#9;app/src/main/java/com/example/metroapplication/apis/BaseApi.java&#10;#&#9;app/src/main/java/com/example/metroapplication/apis/EndApi.java&#10;#&#9;app/src/main/java/com/example/metroapplication/apis/apiModel/ChangePassData.java&#10;#&#9;app/src/main/java/com/example/metroapplication/apis/apiModel/ChangePassModule.java&#10;#&#9;app/src/main/java/com/example/metroapplication/apis/apiModel/IssueValueQRData.java&#10;#&#9;app/src/main/java/com/example/metroapplication/apis/apiModel/IssueValueQRRequest.java&#10;#&#9;app/src/main/java/com/example/metroapplication/apis/apiModel/IssueValueQRResponse.java&#10;#&#9;app/src/main/java/com/example/metroapplication/apis/apiModel/IssueValueQRResponseData.java&#10;#&#9;app/src/main/java/com/example/metroapplication/apis/apiModel/ListFare.java&#10;#&#9;app/src/main/java/com/example/metroapplication/apis/apiModel/ListRouteDetail.java&#10;#&#9;app/src/main/java/com/example/metroapplication/apis/apiModel/ListRtDetailInfo.java&#10;#&#9;app/src/main/java/com/example/metroapplication/apis/apiModel/LoginModule.java&#10;#&#9;app/src/main/java/com/example/metroapplication/apis/apiModel/LoginResponse.java&#10;#&#9;app/src/main/java/com/example/metroapplication/apis/apiModel/LoginResponseData.java&#10;#&#9;app/src/main/java/com/example/metroapplication/apis/apiModel/MasterData.java&#10;#&#9;app/src/main/java/com/example/metroapplication/apis/apiModel/MasterPayload.java&#10;#&#9;app/src/main/java/com/example/metroapplication/apis/apiModel/MobileVerification.java&#10;#&#9;app/src/main/java/com/example/metroapplication/apis/apiModel/MobileVerificationData.java&#10;#&#9;app/src/main/java/com/example/metroapplication/apis/apiModel/Payload.java&#10;#&#9;app/src/main/java/com/example/metroapplication/apis/apiModel/Registration.java&#10;#&#9;app/src/main/java/com/example/metroapplication/apis/apiModel/RegistrationData.java&#10;#&#9;app/src/main/java/com/example/metroapplication/apis/apiModel/RegistrationResponse.java&#10;#&#9;app/src/main/java/com/example/metroapplication/apis/apiModel/RegistrationResponseData.java&#10;#&#9;app/src/main/java/com/example/metroapplication/apis/apiModel/SJTicketRequest.java&#10;#&#9;app/src/main/java/com/example/metroapplication/constants/Constants.java&#10;#&#9;app/src/main/java/com/example/metroapplication/helper/IncreamentDecreament.java&#10;#&#9;app/src/main/java/com/example/metroapplication/model/MyTicketModel.java&#10;#&#9;app/src/main/java/com/example/metroapplication/model/MyTrips.java&#10;#&#9;app/src/main/java/com/example/metroapplication/model/StationModel.java&#10;#&#9;app/src/main/java/com/example/metroapplication/myDataBase/MYdb.java&#10;#&#9;app/src/main/java/com/example/metroapplication/myDataBase/MyTicketDbConstant.java&#10;#&#9;app/src/main/java/com/example/metroapplication/myDataBase/Stations.java&#10;#&#9;app/src/main/java/com/example/metroapplication/sharedPref/VariablesConstant.java&#10;#&#9;app/src/main/java/com/example/metroapplication/utils/ConnectionDetector.java&#10;#&#9;app/src/main/java/com/example/metroapplication/utils/MenuActivity.java&#10;#&#9;app/src/main/java/com/example/metroapplication/utils/PermissionManagerUtil.java&#10;#&#9;app/src/main/res/drawable-v24/button_border.xml&#10;#&#9;app/src/main/res/drawable-v24/metro.png&#10;#&#9;app/src/main/res/drawable/back_button.xml&#10;#&#9;app/src/main/res/drawable/bus_ticket.png&#10;#&#9;app/src/main/res/drawable/button_border.xml&#10;#&#9;app/src/main/res/drawable/button_white.xml&#10;#&#9;app/src/main/res/drawable/card_edge.xml&#10;#&#9;app/src/main/res/drawable/drop_arrow.png&#10;#&#9;app/src/main/res/drawable/ic_drawer.png&#10;#&#9;app/src/main/res/drawable/ic_launcher_foreground.xml&#10;#&#9;app/src/main/res/drawable/ic_menu_camera.xml&#10;#&#9;app/src/main/res/drawable/ic_menu_gallery.xml&#10;#&#9;app/src/main/res/drawable/ic_menu_manage.xml&#10;#&#9;app/src/main/res/drawable/ic_menu_send.xml&#10;#&#9;app/src/main/res/drawable/ic_menu_share.xml&#10;#&#9;app/src/main/res/drawable/ic_menu_slideshow.xml&#10;#&#9;app/src/main/res/drawable/ic_spinner.png&#10;#&#9;app/src/main/res/drawable/logout.png&#10;#&#9;app/src/main/res/drawable/my_ticket.png&#10;#&#9;app/src/main/res/drawable/my_trips.png&#10;#&#9;app/src/main/res/drawable/penalty.png&#10;#&#9;app/src/main/res/drawable/qr.png&#10;#&#9;app/src/main/res/drawable/rupee.png&#10;#&#9;app/src/main/res/drawable/spinner_border.xml&#10;#&#9;app/src/main/res/drawable/spinner_mini.xml&#10;#&#9;app/src/main/res/drawable/ticket_book.png&#10;#&#9;app/src/main/res/drawable/ticket_penalty.png&#10;#&#9;app/src/main/res/layout/activity_change_password.xml&#10;#&#9;app/src/main/res/layout/activity_detail.xml&#10;#&#9;app/src/main/res/layout/activity_forget_password.xml&#10;#&#9;app/src/main/res/layout/activity_home.xml&#10;#&#9;app/src/main/res/layout/activity_journey_preview.xml&#10;#&#9;app/src/main/res/layout/activity_login.xml&#10;#&#9;app/src/main/res/layout/activity_main.xml&#10;#&#9;app/src/main/res/layout/activity_my_pass_q_r.xml&#10;#&#9;app/src/main/res/layout/activity_my_profile.xml&#10;#&#9;app/src/main/res/layout/activity_my_ticket_q_r.xml&#10;#&#9;app/src/main/res/layout/activity_my_trips.xml&#10;#&#9;app/src/main/res/layout/activity_otp.xml&#10;#&#9;app/src/main/res/layout/activity_pass.xml&#10;#&#9;app/src/main/res/layout/activity_pass_preview.xml&#10;#&#9;app/src/main/res/layout/activity_post_payment.xml&#10;#&#9;app/src/main/res/layout/activity_registration.xml&#10;#&#9;app/src/main/res/layout/activity_value_ticket.xml&#10;#&#9;app/src/main/res/layout/activity_value_ticket_preview.xml&#10;#&#9;app/src/main/res/layout/footer.xml&#10;#&#9;app/src/main/res/layout/header.xml&#10;#&#9;app/src/main/res/layout/item_my_trips.xml&#10;#&#9;app/src/main/res/menu/menu.xml&#10;#&#9;app/src/main/res/values/styles.xml&#10;#&#9;app/src/test/java/com/example/metroapplication/ExampleUnitTest.java&#10;#&#9;build.gradle&#10;#&#9;settings.gradle" />
+    <MESSAGE value="second commit" />
+    <MESSAGE value="commit" />
+    <MESSAGE value="Pass Api Integration" />
+    <MESSAGE value="Pass Api Integration completed" />
+    <MESSAGE value="Merge branch 'master' of https://github.com/Nextgen-Telesolutions/MMR_CustomerApp&#10;&#10;# Conflicts:&#10;#&#9;.gitignore&#10;#&#9;README.md&#10;#&#9;androidStudioFirstRun.xml&#10;#&#9;app/src/main/java/com/example/metroapplication/activity/ChangePassword.java&#10;#&#9;app/src/main/java/com/example/metroapplication/activity/DetailActivity.java&#10;#&#9;app/src/main/java/com/example/metroapplication/activity/ForgetPassword.java&#10;#&#9;app/src/main/java/com/example/metroapplication/activity/HomeActivity.java&#10;#&#9;app/src/main/java/com/example/metroapplication/activity/JourneyPreviewActivity.java&#10;#&#9;app/src/main/java/com/example/metroapplication/activity/LoginActivity.java&#10;#&#9;app/src/main/java/com/example/metroapplication/activity/MainActivity.java&#10;#&#9;app/src/main/java/com/example/metroapplication/activity/MyPassQR.java&#10;#&#9;app/src/main/java/com/example/metroapplication/activity/MyProfileActivity.java&#10;#&#9;app/src/main/java/com/example/metroapplication/activity/MyTicketQR.java&#10;#&#9;app/src/main/java/com/example/metroapplication/activity/MyTripsActivity.java&#10;#&#9;app/src/main/java/com/example/metroapplication/activity/OtpActivity.java&#10;#&#9;app/src/main/java/com/example/metroapplication/activity/PassActivity.java&#10;#&#9;app/src/main/java/com/example/metroapplication/activity/PassPreviewActivity.java&#10;#&#9;app/src/main/java/com/example/metroapplication/activity/PostPaymentActivity.java&#10;#&#9;app/src/main/java/com/example/metroapplication/activity/RegistrationActivity.java&#10;#&#9;app/src/main/java/com/example/metroapplication/activity/ValueTicketActivity.java&#10;#&#9;app/src/main/java/com/example/metroapplication/activity/ValueTicketPreviewActivity.java&#10;#&#9;app/src/main/java/com/example/metroapplication/apis/ApiInterface.java&#10;#&#9;app/src/main/java/com/example/metroapplication/apis/EndApi.java&#10;#&#9;app/src/main/res/layout/activity_pass.xml&#10;#&#9;app/src/main/res/layout/activity_pass_preview.xml&#10;#&#9;app/src/main/res/values/strings.xml&#10;#&#9;build.gradle&#10;#&#9;code.style.schemes.xml&#10;#&#9;colors.scheme.xml&#10;#&#9;debugger.xml&#10;#&#9;editor.xml&#10;#&#9;filetypes.xml&#10;#&#9;github.xml&#10;#&#9;gradle.properties&#10;#&#9;gradle/wrapper/gradle-wrapper.properties&#10;#&#9;gradlew&#10;#&#9;gradlew.bat&#10;#&#9;notifications.xml&#10;#&#9;settings.gradle&#10;#&#9;vcs.xml&#10;#&#9;visualizationTool.xml&#10;#&#9;wsl.distributions.xml" />
+    <MESSAGE value="Commit After Pass" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit After Pass" />
+    <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="200" y="110" key="#PSD" timestamp="1613479159784">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="200" y="110" key="#PSD/0.0.1366.728@0.0.1366.728" timestamp="1613479159784" />
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614323013895">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1614323013895" />
+    <state x="488" y="0" width="390" height="728" key="#com.intellij.ide.util.MemberChooser" timestamp="1616589753184">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="0" width="390" height="728" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1616589753184" />
+    <state x="363" y="99" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1616651389373">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="363" y="99" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1616651389373" />
+    <state x="156" y="288" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1613581328013">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="156" y="288" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1613581328013" />
+    <state x="437" y="232" width="532" height="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1613476037289">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="437" y="232" width="532" height="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1613476037289" />
+    <state x="340" y="245" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1613581329250">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="340" y="245" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1366.728@0.0.1366.728" timestamp="1613581329250" />
+    <state x="109" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1608824024155">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="109" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1608824024155" />
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1613740893148">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1613740893148" />
+    <state x="440" y="213" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1613114003214">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="440" y="213" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1613114003214" />
+    <state x="263" y="118" key="AndroidCreateResourceDirectoryDialog" timestamp="1613596551948">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="263" y="118" key="AndroidCreateResourceDirectoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1613596551948" />
+    <state x="263" y="119" key="AndroidCreateResourceFileDialog" timestamp="1614260118806">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="263" y="119" key="AndroidCreateResourceFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1614260118806" />
+    <state x="527" y="149" key="AndroidCreateXmlResourceDialog" timestamp="1613664444634">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="527" y="149" key="AndroidCreateXmlResourceDialog/0.0.1366.728@0.0.1366.728" timestamp="1613664444634" />
+    <state x="476" y="110" key="AndroidProcessChooserDialog" timestamp="1614259681596">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="476" y="110" key="AndroidProcessChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1614259681596" />
+    <state x="363" y="118" key="Downloadable.Font.Dialog.Size" timestamp="1613986623259">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="363" y="118" key="Downloadable.Font.Dialog.Size/0.0.1366.728@0.0.1366.728" timestamp="1613986623259" />
+    <state x="462" y="106" key="FileChooserDialogImpl" timestamp="1616499668615">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="106" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1616499668615" />
+    <state width="1323" height="188" key="GridCell.Tab.0.bottom" timestamp="1616651700472">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="188" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1616651700472" />
+    <state width="1323" height="188" key="GridCell.Tab.0.center" timestamp="1616651700471">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="188" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1616651700471" />
+    <state width="1323" height="188" key="GridCell.Tab.0.left" timestamp="1616651700471">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="188" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1616651700471" />
+    <state width="1323" height="188" key="GridCell.Tab.0.right" timestamp="1616651700471">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="188" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1616651700471" />
+    <state x="144" y="0" key="SettingsEditor" timestamp="1616677434300">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="144" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1616677434300" />
+    <state x="499" y="141" key="chooseDestDirectoryDialog" timestamp="1613468180030">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="499" y="141" key="chooseDestDirectoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1613468180030" />
+    <state x="92" y="92" width="1182" height="544" key="dock-window-1" timestamp="1614265555192">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="dock-window-1/0.0.1366.728@0.0.1366.728" timestamp="1614265555192" />
+    <state x="92" y="92" width="1182" height="544" key="dock-window-2" timestamp="1614265555192">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="dock-window-2/0.0.1366.728@0.0.1366.728" timestamp="1614265555192" />
+    <state x="92" y="92" width="1182" height="544" key="dock-window-3" timestamp="1614265555192">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="dock-window-3/0.0.1366.728@0.0.1366.728" timestamp="1614265555192" />
+    <state width="602" height="367" key="javadoc.popup" timestamp="1609770469354">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="602" height="367" key="javadoc.popup/0.0.1366.728@0.0.1366.728" timestamp="1609770469354" />
+    <state x="418" y="216" key="psd.add.jar.dependency.panel.dimension" timestamp="1613479150457">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="418" y="216" key="psd.add.jar.dependency.panel.dimension/0.0.1366.728@0.0.1366.728" timestamp="1613479150457" />
+    <state x="418" y="9" key="psd.add.module.dependency.panel.dimension" timestamp="1611681890310">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="418" y="9" key="psd.add.module.dependency.panel.dimension/0.0.1366.728@0.0.1366.728" timestamp="1611681890310" />
+    <state x="488" y="218" key="psd.choose.module.panel.dimension" timestamp="1613479147810">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="218" key="psd.choose.module.panel.dimension/0.0.1366.728@0.0.1366.728" timestamp="1613479147810" />
+    <state x="339" y="165" key="run.anything.popup" timestamp="1614096858725">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="165" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1614096858725" />
+  </component>
+</project>

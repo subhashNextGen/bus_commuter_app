@@ -1,0 +1,27 @@
+<component name="libraryTable">
+  <library name="Gradle: uk.co.chrisjenx:calligraphy:2.2.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0ef01abdd5bbf1f2ed7164737c4119a1/jetified-calligraphy-2.2.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0ef01abdd5bbf1f2ed7164737c4119a1/jetified-calligraphy-2.2.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0ef01abdd5bbf1f2ed7164737c4119a1/jetified-calligraphy-2.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0548be33d4bab36ff8eb52e13b2463b5/jetified-calligraphy-2.2.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0548be33d4bab36ff8eb52e13b2463b5/jetified-calligraphy-2.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0548be33d4bab36ff8eb52e13b2463b5/jetified-calligraphy-2.2.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4e5b88983a8409e36096c5be89b45f61/jetified-calligraphy-2.2.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4e5b88983a8409e36096c5be89b45f61/jetified-calligraphy-2.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4e5b88983a8409e36096c5be89b45f61/jetified-calligraphy-2.2.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f25c1fbd6d1370d6294c5eb8e4e22109/jetified-calligraphy-2.2.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f25c1fbd6d1370d6294c5eb8e4e22109/jetified-calligraphy-2.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f25c1fbd6d1370d6294c5eb8e4e22109/jetified-calligraphy-2.2.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/46b4d3e920a41c32f384a7c7859467b2/jetified-calligraphy-2.2.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/46b4d3e920a41c32f384a7c7859467b2/jetified-calligraphy-2.2.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/46b4d3e920a41c32f384a7c7859467b2/jetified-calligraphy-2.2.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/uk.co.chrisjenx/calligraphy/2.2.0/9cbe9b4d5702c21607a062681320cc59c391ad83/calligraphy-2.2.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/uk.co.chrisjenx/calligraphy/2.2.0/1c9d5b9dbf2bfe7b615dfb6b526f004f63a5772c/calligraphy-2.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

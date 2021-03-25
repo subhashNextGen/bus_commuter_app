@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    tools:context=".activity.PostPaymentActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="ScrollViewSize">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <include layout="@layout/header" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/layoutone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/onelayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/margin_top">
+
+                    <TextView
+                        android:id="@+id/yourPayment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Your payment is confirmed :"
+                        android:textColor="@color/textColor"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:id="@+id/fromlinear_post_payment"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_left_right"
+                    android:layout_marginTop="@dimen/margin_top"
+                    android:layout_marginRight="@dimen/margin_left_right"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.7"
+                        android:text="From"
+                        android:textColor="@color/textColor"
+                        android:textSize="@dimen/text_size" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.1"
+                        android:text=":"
+                        android:textColor="@color/textColor"
+                        android:textSize="@dimen/text_size" />
+
+
+                    <TextView
+                        android:id="@+id/from_post_payment"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:text="Delhi"
+                        android:gravity="center"
+                        android:layout_weight="1.2"
+                        android:textColor="@color/textColor"
+                        android:textSize="@dimen/text_size">
+
+                    </TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tolinear_post_payment"
+                    android:layout_marginLeft="@dimen/margin_left_right"
+                    android:layout_marginTop="@dimen/margin_top"
+                    android:layout_marginRight="@dimen/margin_left_right"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.7"
+                        android:text="To"
+                        android:textColor="@color/textColor"
+                        android:textSize="@dimen/text_size" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.1"
+                        android:text=":"
+                        android:textColor="@color/textColor"
+                        android:textSize="@dimen/text_size" />
+
+
+                    <TextView
+                        android:id="@+id/to_post_payment"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:text="Noida"
+                        android:gravity="center"
+                        android:layout_weight="1.2"
+                        android:textColor="@color/textColor"
+                        android:textSize="@dimen/text_size">
+
+                    </TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_left_right"
+                    android:layout_marginTop="@dimen/margin_top"
+                    android:layout_marginRight="@dimen/margin_left_right"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.7"
+                        android:text="Amount Paid"
+                        android:textColor="@color/textColor"
+                        android:textSize="@dimen/text_size" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.1"
+                        android:text=":"
+                        android:textColor="@color/textColor"
+                        android:textSize="@dimen/text_size" />
+
+
+                    <TextView
+                        android:id="@+id/amount_paid_post_payment"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:text="36.0"
+                        android:gravity="center"
+                        android:layout_weight="1.2"
+                        android:textColor="@color/textColor"
+                        android:textSize="@dimen/text_size">
+
+                    </TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_left_right"
+                    android:layout_marginTop="@dimen/margin_top"
+                    android:layout_marginRight="@dimen/margin_left_right"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.7"
+                        android:text="Date"
+                        android:textColor="@color/textColor"
+                        android:textSize="@dimen/text_size" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.1"
+                        android:text=":"
+                        android:textColor="@color/textColor"
+                        android:textSize="@dimen/text_size" />
+
+
+                    <TextView
+                        android:id="@+id/date_post_payment"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:text="07-Oct-2020"
+                        android:gravity="center"
+                        android:layout_weight="1.2"
+                        android:textColor="@color/textColor"
+                        android:textSize="@dimen/text_size">
+
+                    </TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_left_right"
+                    android:layout_marginTop="@dimen/margin_top"
+                    android:layout_marginRight="@dimen/margin_left_right"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.7"
+                        android:text="Time"
+
+                        android:textColor="@color/textColor"
+                        android:textSize="@dimen/text_size" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.1"
+                        android:text=":"
+                        android:textColor="@color/textColor"
+                        android:textSize="@dimen/text_size" />
+
+
+                    <TextView
+                        android:id="@+id/time_post_payment"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:text="1:40 PM"
+                        android:gravity="center"
+                        android:layout_weight="1.2"
+                        android:textColor="@color/textColor"
+                        android:textSize="@dimen/text_size">
+
+                    </TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_left_right"
+                    android:layout_marginTop="@dimen/margin_top"
+                    android:layout_marginRight="@dimen/margin_left_right"
+                    android:id="@+id/validity_layout"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.7"
+                        android:text="Validity"
+                        android:textColor="@color/textColor"
+                        android:textSize="@dimen/text_size" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.1"
+                        android:text=":"
+                        android:textColor="@color/textColor"
+                        android:textSize="@dimen/text_size" />
+
+
+                    <TextView
+                        android:id="@+id/valid_post_payment"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:text="3:40 PM"
+                        android:gravity="center"
+                        android:layout_weight="1.2"
+                        android:textColor="@color/textColor"
+                        android:textSize="@dimen/text_size">
+
+                    </TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_left_right"
+                    android:layout_marginTop="@dimen/margin_top"
+                    android:layout_marginRight="@dimen/margin_left_right"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.7"
+                        android:text="Payment ID"
+                        android:textColor="@color/textColor"
+                        android:textSize="@dimen/text_size" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.1"
+                        android:text=":"
+                        android:textColor="@color/textColor"
+                        android:textSize="@dimen/text_size" />
+
+
+                    <TextView
+                        android:id="@+id/payment_id_post_payment"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:text="P123456"
+                        android:gravity="center"
+                        android:layout_weight="1.2"
+                        android:textColor="@color/textColor"
+                        android:textSize="@dimen/text_size">
+
+                    </TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_left_right"
+                    android:layout_marginTop="@dimen/margin_top"
+                    android:layout_marginRight="@dimen/margin_left_right"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.7"
+                        android:text="Ticket ID"
+                        android:textColor="@color/textColor"
+                        android:textSize="@dimen/text_size" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.1"
+                        android:text=":"
+                        android:textColor="@color/textColor"
+                        android:textSize="@dimen/text_size" />
+
+
+                    <TextView
+                        android:id="@+id/ticket_id_post_payment"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:text="654321"
+                        android:gravity="center"
+                        android:layout_weight="1.2"
+                        android:textColor="@color/textColor"
+                        android:textSize="@dimen/text_size">
+
+                    </TextView>
+                </LinearLayout>
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginLeft="@dimen/margin_left_right"-->
+<!--                    android:layout_marginTop="@dimen/margin_top"-->
+<!--                    android:layout_marginRight="@dimen/margin_left_right"-->
+<!--                    android:weightSum="2">-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="0dp"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_weight="0.7"-->
+<!--                        android:text="Transaction ID "-->
+<!--                        android:textColor="@color/textColor"-->
+<!--                        android:textSize="@dimen/text_size" />-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="0dp"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_weight="0.1"-->
+<!--                        android:text=":"-->
+<!--                        android:textColor="@color/textColor"-->
+<!--                        android:textSize="@dimen/text_size" />-->
+
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/transaction_id_post_payment"-->
+<!--                        android:layout_width="0dp"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_marginStart="5dp"-->
+<!--                        android:text="TR123456"-->
+<!--                        android:gravity="center"-->
+<!--                        android:layout_weight="1.2"-->
+<!--                        android:textColor="@color/textColor"-->
+<!--                        android:textSize="@dimen/text_size">-->
+
+<!--                    </TextView>-->
+<!--                </LinearLayout>-->
+
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/margin_top"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/yourText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="Your QR ticket is here :"
+                    android:textColor="@color/textColor"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imageview_ticket_qr"
+                    android:layout_width="250dp"
+                    android:layout_height="250dp"
+                    android:layout_below="@+id/yourText"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/margin_top"
+                    android:contentDescription="TODO"
+                    android:visibility="invisible" />
+
+                <ProgressBar
+                    android:id="@+id/progress_post_payment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/yourText"
+                    android:layout_marginTop="20dp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="bottom">
+            <include layout="@layout/footer" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

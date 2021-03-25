@@ -1,0 +1,25 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.worker8:radiogroupplus:1.0.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7cbef63e61c86d809d547ee8804fd798/jetified-radiogroupplus-1.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7cbef63e61c86d809d547ee8804fd798/jetified-radiogroupplus-1.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7cbef63e61c86d809d547ee8804fd798/jetified-radiogroupplus-1.0.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/29a2370723030e8eeabbe20ac61f7b99/jetified-radiogroupplus-1.0.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/29a2370723030e8eeabbe20ac61f7b99/jetified-radiogroupplus-1.0.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/29a2370723030e8eeabbe20ac61f7b99/jetified-radiogroupplus-1.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d90815e7c772928c887efd924c1daf0a/jetified-radiogroupplus-1.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d90815e7c772928c887efd924c1daf0a/jetified-radiogroupplus-1.0.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d90815e7c772928c887efd924c1daf0a/jetified-radiogroupplus-1.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b612172ccb496918636b8cc19123cfcf/jetified-radiogroupplus-1.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b612172ccb496918636b8cc19123cfcf/jetified-radiogroupplus-1.0.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b612172ccb496918636b8cc19123cfcf/jetified-radiogroupplus-1.0.1/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a18db9f05965b2d199b54b0f80e84991/jetified-radiogroupplus-1.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a18db9f05965b2d199b54b0f80e84991/jetified-radiogroupplus-1.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a18db9f05965b2d199b54b0f80e84991/jetified-radiogroupplus-1.0.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.worker8/radiogroupplus/1.0.1/a56c01c1671751b1442cfbd30c6ef1f69588c62b/radiogroupplus-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

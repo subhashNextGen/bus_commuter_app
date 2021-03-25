@@ -1,0 +1,6 @@
+include ':mylibraryencdec'
+rootProject.name = 'Bus Customer Application'
+include ':BusCustomerApplication'
+
+
+
