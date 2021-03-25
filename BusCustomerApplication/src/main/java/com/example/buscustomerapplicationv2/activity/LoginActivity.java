@@ -84,11 +84,12 @@ public class LoginActivity extends AppCompatActivity {
 
                 if (isvalidation()) {
                     if (cd.isConnectingToInternet()) {
+                        if (new PermissionManagerUtil(LoginActivity.this).checkPhoneStatePermission()) {
                         progressDialog.show();
                         loginController = new LoginController(LoginActivity.this);
                         loginController.onLogin(mobileInput.getText().toString().trim(), passwordInput.getText().toString().trim());
 
-                    }
+                    }}
                 }
             }
         });
@@ -150,9 +151,9 @@ public class LoginActivity extends AppCompatActivity {
         if (requestCode == REQUEST_PERMISSION_PHONE_STATE) {
             if (grantResults.length > 0
                     && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                Toast.makeText(this, "Permission Granted!", Toast.LENGTH_SHORT).show();
+//                Toast.makeText(this, "Permission Granted!", Toast.LENGTH_SHORT).show();
             } else {
-                Toast.makeText(LoginActivity.this, "Permission Denied!", Toast.LENGTH_SHORT).show();
+//                Toast.makeText(LoginActivity.this, "Permission Denied!", Toast.LENGTH_SHORT).show();
             }
         } else {
             throw new IllegalStateException("Unexpected value: " + requestCode);

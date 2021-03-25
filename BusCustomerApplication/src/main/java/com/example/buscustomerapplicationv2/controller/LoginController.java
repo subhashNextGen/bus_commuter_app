@@ -15,7 +15,6 @@ import com.example.buscustomerapplicationv2.sharedPref.VariablesConstant;
 import com.example.buscustomerapplicationv2.utils.PermissionManagerUtil;
 import com.google.gson.JsonObject;
 
-import java.io.IOException;
 import java.net.SocketTimeoutException;
 
 import retrofit2.Call;
@@ -36,6 +35,7 @@ public class LoginController {
     }
 
     public void onLogin(String mobile, String password) {
+
         Model_CreateSession model_createSession = new Model_CreateSession();
         model_createSession.setClientID(view.getResources().getString(R.string.clientID));
         model_createSession.setEntrycode(password);
@@ -44,43 +44,48 @@ public class LoginController {
 
         Call<Model_CreateSessio_Response> call = apiInterface.loginSession(model_createSession);
 
-        call.enqueue(new Callback<Model_CreateSessio_Response>() {
-            @Override
-            public void onResponse(Call<Model_CreateSessio_Response> call, Response<Model_CreateSessio_Response> response) {
-                if (response.code() == 200) {
-                    Model_CreateSessio_Response model_createSessio_response = response.body();
-                    if (model_createSessio_response.getStatus() == 0) {
-                        AppPreferences.setAppPrefrences(VariablesConstant.backendKey_user, model_createSessio_response.getPayload().getBackendKey(), view);
-                        AppPreferences.setAppPrefrences(VariablesConstant.MOBILE, model_createSessio_response.getPayload().getMobile(), view);
-                        AppPreferences.setAppPrefrences(VariablesConstant.ADDRESS, model_createSessio_response.getPayload().getAddress(), view);
-                        AppPreferences.setAppPrefrences(VariablesConstant.CITY, model_createSessio_response.getPayload().getCity(), view);
-                        AppPreferences.setAppPrefrences(VariablesConstant.STATE, model_createSessio_response.getPayload().getState(), view);
-                        AppPreferences.setAppPrefrences(VariablesConstant.PINCODE, model_createSessio_response.getPayload().getPincode(), view);
-                        AppPreferences.setAppPrefrences(VariablesConstant.F_NAME, model_createSessio_response.getPayload().getFirst_name(), view);
-                        AppPreferences.setAppPrefrences(VariablesConstant.L_NAME, model_createSessio_response.getPayload().getLast_name(), view);
-                        AppPreferences.setAppPrefrences(VariablesConstant.EMAIL, model_createSessio_response.getPayload().getEmailId(), view);
+            call.enqueue(new Callback<Model_CreateSessio_Response>() {
+                @Override
+                public void onResponse(Call<Model_CreateSessio_Response> call, Response<Model_CreateSessio_Response> response) {
+                    if (response.code() == 200) {
+                        if (response.body().getStatus() == 0) {
+                            Model_CreateSessio_Response model_createSessio_response = response.body();
+                            AppPreferences.setAppPrefrences(VariablesConstant.backendKey_user, model_createSessio_response.getPayload().getBackendKey(), view);
+                            AppPreferences.setAppPrefrences(VariablesConstant.MOBILE, model_createSessio_response.getPayload().getMobile(), view);
+                            AppPreferences.setAppPrefrences(VariablesConstant.ADDRESS, model_createSessio_response.getPayload().getAddress(), view);
+                            AppPreferences.setAppPrefrences(VariablesConstant.CITY, model_createSessio_response.getPayload().getCity(), view);
+                            AppPreferences.setAppPrefrences(VariablesConstant.STATE, model_createSessio_response.getPayload().getState(), view);
+                            AppPreferences.setAppPrefrences(VariablesConstant.PINCODE, model_createSessio_response.getPayload().getPincode(), view);
+                            AppPreferences.setAppPrefrences(VariablesConstant.F_NAME, model_createSessio_response.getPayload().getFirst_name(), view);
+                            AppPreferences.setAppPrefrences(VariablesConstant.L_NAME, model_createSessio_response.getPayload().getLast_name(), view);
+                            AppPreferences.setAppPrefrences(VariablesConstant.EMAIL, model_createSessio_response.getPayload().getEmailId(), view);
 
-                        fetchCommuter();
-                        view.onSuccess();
+                            fetchCommuter();
+                            view.onSuccess();
 
-                    } else {
+                        } else {
+                            view.onError(response.body().getMessage());
 
-
+                        }
                     }
+
                 }
 
-            }
-
-            @Override
-            public void onFailure(Call<Model_CreateSessio_Response> call, Throwable t) {
-                if (t instanceof SocketTimeoutException){    view.onError(t.getMessage());}
+                @Override
+                public void onFailure(Call<Model_CreateSessio_Response> call, Throwable t) {
+                    if (t instanceof SocketTimeoutException) {
+                        view.onError(t.getMessage());
+                    }
 //                else if (t instanceof IOException) view.onError(t.getMessage());
-                else
+                    else
+                        onLogin(mobile, password);
+                }
+            });
 
-                onLogin(mobile,password);
-            }
-        });
 
+//        }
+//        else
+//            view.onError("Permission Needed to get Device id");
 
     }
 
@@ -103,7 +108,7 @@ public class LoginController {
 
             @Override
             public void onFailure(Call<Model_ListCommuterCategory_response> call, Throwable t) {
-fetchCommuter();
+                fetchCommuter();
             }
         });
     }
@@ -132,7 +137,7 @@ fetchCommuter();
 
             @Override
             public void onFailure(Call<Model_Base_Fare> call, Throwable t) {
-fetchupdatedFare();
+                fetchupdatedFare();
             }
         });
 

@@ -30,7 +30,19 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f75090b3-6ea3-4d22-a542-5b3351cc8263" name="Default Changelist" comment="Commit" />
+    <list default="true" id="f75090b3-6ea3-4d22-a542-5b3351cc8263" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/activity/LoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/activity/LoginActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/utils/PermissionManagerUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/utils/PermissionManagerUtil.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,8 +107,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ApkExportedModule" value="Bus_Customer_Application.BusCustomerApplication" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Pixel_3a_API_30_x86" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-03-25T05:40:58.192Z" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Pixel_4_XL_API_27" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-03-25T15:09:03.700Z" />
     <property name="ExportApk.ApkPath" value="E:\Telpo\New folder\New folder\MetroApplication\app" />
     <property name="ExportApk.BuildVariants" value="debug" />
     <property name="ExportApk.SignV1" value="true" />
@@ -598,7 +610,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606741116313</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="First Commit">
+      <created>1616678962362</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1616678962362</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -654,7 +673,8 @@
     <MESSAGE value="Pass Api Integration completed" />
     <MESSAGE value="Merge branch 'master' of https://github.com/Nextgen-Telesolutions/MMR_CustomerApp&#10;&#10;# Conflicts:&#10;#&#9;.gitignore&#10;#&#9;README.md&#10;#&#9;androidStudioFirstRun.xml&#10;#&#9;app/src/main/java/com/example/metroapplication/activity/ChangePassword.java&#10;#&#9;app/src/main/java/com/example/metroapplication/activity/DetailActivity.java&#10;#&#9;app/src/main/java/com/example/metroapplication/activity/ForgetPassword.java&#10;#&#9;app/src/main/java/com/example/metroapplication/activity/HomeActivity.java&#10;#&#9;app/src/main/java/com/example/metroapplication/activity/JourneyPreviewActivity.java&#10;#&#9;app/src/main/java/com/example/metroapplication/activity/LoginActivity.java&#10;#&#9;app/src/main/java/com/example/metroapplication/activity/MainActivity.java&#10;#&#9;app/src/main/java/com/example/metroapplication/activity/MyPassQR.java&#10;#&#9;app/src/main/java/com/example/metroapplication/activity/MyProfileActivity.java&#10;#&#9;app/src/main/java/com/example/metroapplication/activity/MyTicketQR.java&#10;#&#9;app/src/main/java/com/example/metroapplication/activity/MyTripsActivity.java&#10;#&#9;app/src/main/java/com/example/metroapplication/activity/OtpActivity.java&#10;#&#9;app/src/main/java/com/example/metroapplication/activity/PassActivity.java&#10;#&#9;app/src/main/java/com/example/metroapplication/activity/PassPreviewActivity.java&#10;#&#9;app/src/main/java/com/example/metroapplication/activity/PostPaymentActivity.java&#10;#&#9;app/src/main/java/com/example/metroapplication/activity/RegistrationActivity.java&#10;#&#9;app/src/main/java/com/example/metroapplication/activity/ValueTicketActivity.java&#10;#&#9;app/src/main/java/com/example/metroapplication/activity/ValueTicketPreviewActivity.java&#10;#&#9;app/src/main/java/com/example/metroapplication/apis/ApiInterface.java&#10;#&#9;app/src/main/java/com/example/metroapplication/apis/EndApi.java&#10;#&#9;app/src/main/res/layout/activity_pass.xml&#10;#&#9;app/src/main/res/layout/activity_pass_preview.xml&#10;#&#9;app/src/main/res/values/strings.xml&#10;#&#9;build.gradle&#10;#&#9;code.style.schemes.xml&#10;#&#9;colors.scheme.xml&#10;#&#9;debugger.xml&#10;#&#9;editor.xml&#10;#&#9;filetypes.xml&#10;#&#9;github.xml&#10;#&#9;gradle.properties&#10;#&#9;gradle/wrapper/gradle-wrapper.properties&#10;#&#9;gradlew&#10;#&#9;gradlew.bat&#10;#&#9;notifications.xml&#10;#&#9;settings.gradle&#10;#&#9;vcs.xml&#10;#&#9;visualizationTool.xml&#10;#&#9;wsl.distributions.xml" />
     <MESSAGE value="Commit After Pass" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit After Pass" />
+    <MESSAGE value="First Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -714,6 +734,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="476" y="110" key="AndroidProcessChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1614259681596" />
+    <state x="145" y="0" key="CommitChangelistDialog2" timestamp="1616678958126">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="145" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1616678958126" />
     <state x="363" y="118" key="Downloadable.Font.Dialog.Size" timestamp="1613986623259">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -722,26 +746,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="462" y="106" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1616499668615" />
-    <state width="1323" height="188" key="GridCell.Tab.0.bottom" timestamp="1616651700472">
+    <state width="1323" height="188" key="GridCell.Tab.0.bottom" timestamp="1616694615843">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="188" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1616651700472" />
-    <state width="1323" height="188" key="GridCell.Tab.0.center" timestamp="1616651700471">
+    <state width="1323" height="188" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1616694615843" />
+    <state width="1323" height="188" key="GridCell.Tab.0.center" timestamp="1616694615842">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="188" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1616651700471" />
-    <state width="1323" height="188" key="GridCell.Tab.0.left" timestamp="1616651700471">
+    <state width="1323" height="188" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1616694615842" />
+    <state width="1323" height="188" key="GridCell.Tab.0.left" timestamp="1616694615842">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="188" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1616651700471" />
-    <state width="1323" height="188" key="GridCell.Tab.0.right" timestamp="1616651700471">
+    <state width="1323" height="188" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1616694615842" />
+    <state width="1323" height="188" key="GridCell.Tab.0.right" timestamp="1616694615842">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="188" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1616651700471" />
+    <state width="1323" height="188" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1616694615842" />
     <state x="144" y="0" key="SettingsEditor" timestamp="1616677434300">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="144" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1616677434300" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1616679137318">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1616679137318" />
     <state x="499" y="141" key="chooseDestDirectoryDialog" timestamp="1613468180030">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
