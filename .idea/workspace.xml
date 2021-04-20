@@ -3,6 +3,13 @@
   <component name="AndroidLayouts">
     <shared>
       <config>
+        <device id="4.65in 720p (Galaxy Nexus)" />
+        <device id="4.7in WXGA" />
+        <device id="4in WVGA (Nexus S)" />
+        <device id="pixel" />
+        <device id="pixel_3" />
+        <device id="pixel_xl" />
+        <device id="pixel_3a_xl" />
         <target>android-21</target>
       </config>
     </shared>
@@ -31,17 +38,248 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f75090b3-6ea3-4d22-a542-5b3351cc8263" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules/app/Bus_Customer_Application.app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/activity/JourneyPreviewActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/controller/OtpController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/models/ModelVerificationResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_worker8_radiogroupplus_1_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_worker8_radiogroupplus_1_0_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__uk_co_chrisjenx_calligraphy_2_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__uk_co_chrisjenx_calligraphy_2_2_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/Bus_Customer_Application.BusCustomerApplication.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/mylibraryencdec/Bus_Customer_Application.mylibraryencdec.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/mylibraryencdec/Bus_Customer_Application.mylibraryencdec.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/activity/RegistrationActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/activity/RegistrationActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/myDataBase/MYdb.java" beforeDir="false" afterPath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/myDataBase/MYdb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/app/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/release/app-release.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/release/app-release.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/release/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/release/output.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/androidTest/java/com/example/buscustomerapplicationv2/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/example/buscustomerapplicationv2/ExampleInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/assets/font/CaviarDreams_Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/font/CaviarDreams_Bold.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/assets/font/begonia_regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/font/begonia_regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/assets/font/caviar_dreams.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/font/caviar_dreams.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/assets/font/ctu.bks" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/font/ctu.bks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/ic_launcher-playstore.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/ic_launcher-playstore.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/activity/ChangePassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/activity/ChangePassword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/activity/DetailActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/activity/DetailActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/activity/ForgetPassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/activity/ForgetPassword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/activity/HomeActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/activity/HomeActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/activity/JourneyPreviewActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/activity/LandingActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/activity/LandingActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/activity/LoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/activity/LoginActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/activity/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/activity/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/activity/MyPassQR.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/activity/MyPassQR.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/activity/MyProfileActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/activity/MyProfileActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/activity/MyTicketQR.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/activity/MyTicketQR.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/activity/MyTripsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/activity/MyTripsActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/activity/NewQrBookTicketActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/activity/NewQrBookTicketActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/activity/OtpActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/activity/OtpActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/activity/PassActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/activity/PassActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/activity/PassPreviewActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/activity/PassPreviewActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/activity/PaymentActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/activity/PaymentActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/activity/PostPaymentActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/activity/PostPaymentActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/activity/RegistrationActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/activity/RegistrationActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/activity/SelectStopsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/activity/SelectStopsActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/activity/TicketSelActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/activity/TicketSelActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/activity/ValueTicketActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/activity/ValueTicketActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/activity/ValueTicketPreviewActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/activity/ValueTicketPreviewActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/activity/ValueTicketQr.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/activity/ValueTicketQr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/adapter/MyArrayAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/adapter/MyArrayAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/adapter/MyTicketAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/adapter/MyTicketAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/adapter/MyTripsAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/adapter/MyTripsAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/apiupdate/ApiClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/apiupdate/ApiClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/apiupdate/ApiInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/apiupdate/ApiInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/apiupdate/BaseApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/apiupdate/BaseApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/apiupdate/EndApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/apiupdate/EndApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/constants/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/constants/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/controller/ChangePasswordController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/controller/ChangePasswordController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/controller/ForgetPasswordController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/controller/ForgetPasswordController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/controller/MyTripsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/controller/MyTripsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/controller/NewQrBookTicketController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/controller/NewQrBookTicketController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/controller/OtpController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/controller/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/controller/RegistrationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/controller/SelectStopsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/controller/SelectStopsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/controller/TicketSelectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/controller/TicketSelectController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/controller/ValueTicketController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/controller/ValueTicketController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/controller/ValueTicketPreviewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/controller/ValueTicketPreviewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/fragment/FromFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/fragment/FromFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/fragment/ToFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/fragment/ToFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/helper/CustomDailogue.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/helper/CustomDailogue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/helper/IncreamentDecreament.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/helper/IncreamentDecreament.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/helper/LinearLayoutWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/helper/LinearLayoutWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/helper/MoveToLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/helper/MoveToLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/models/BaseFareResponsePayload.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/models/BaseFareResponsePayload.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/models/CreateSessionPayload.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/models/CreateSessionPayload.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/models/Model_Base_Fare.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/models/Model_Base_Fare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/models/Model_BookSjt_Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/models/Model_BookSjt_Response.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/models/Model_BookSjt_ResponsePayload.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/models/Model_BookSjt_ResponsePayload.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/models/Model_ChangeEntryCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/models/Model_ChangeEntryCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/models/Model_CommuterRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/models/Model_CommuterRegistration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/models/Model_CreateSessio_Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/models/Model_CreateSessio_Response.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/models/Model_CreateSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/models/Model_CreateSession.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/models/Model_ListBusStop.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/models/Model_ListBusStop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/models/Model_ListCommuterCategory_response.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/models/Model_ListCommuterCategory_response.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/models/Model_ListSjt.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/models/Model_ListSjt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/models/Model_ListSjt_Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/models/Model_ListSjt_Response.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/models/Model_ListSjt_ResponsePayload.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/models/Model_ListSjt_ResponsePayload.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/models/Model_SendOTP.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/models/Model_SendOTP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/models/Model_SendOtp_Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/models/Model_SendOtp_Response.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/models/Model_VerifyOTP.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/models/Model_VerifyOTP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/models/Model_WalletBalance.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/models/Model_WalletBalance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/models/Model_WalletBalanceResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/models/Model_WalletBalanceResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/models/Model_WalletBalanceResponsePayload.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/models/Model_WalletBalanceResponsePayload.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/models/Model_WalletRecharge.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/models/Model_WalletRecharge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/models/Model_WalletRecharge_Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/models/Model_WalletRecharge_Response.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/models/Model_WalletRecharge_ResponsePayload.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/models/Model_WalletRecharge_ResponsePayload.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/models/Model_bookSJT.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/models/Model_bookSJT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/models/Payload_ListBusStop.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/models/Payload_ListBusStop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/models/SendOtpResponsePay.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/models/SendOtpResponsePay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/myDataBase/BaseFare.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/myDataBase/BaseFare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/myDataBase/MYdb.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/myDataBase/MYdb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/myDataBase/MyTicketDbConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/myDataBase/MyTicketDbConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/myDataBase/Stops.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/myDataBase/Stops.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/sharedPref/AppPreferences.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/sharedPref/AppPreferences.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/sharedPref/VariablesConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/sharedPref/VariablesConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/utils/ConnectionDetector.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/utils/ConnectionDetector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/utils/CustomTypeface.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/utils/CustomTypeface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/utils/MenuActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/utils/MenuActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/utils/PermissionManagerUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/utils/PermissionManagerUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/java/com/example/buscustomerapplicationv2/utils/QRGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/buscustomerapplicationv2/utils/QRGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/animator/hyperspace_slide_in_left.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/animator/hyperspace_slide_in_left.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/animator/hyperspace_slide_out_right.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/animator/hyperspace_slide_out_right.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/animator/slide_in_left.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/animator/slide_in_left.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/animator/slide_out_right.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/animator/slide_out_right.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/drawable/arrow_up_down.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/arrow_up_down.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/drawable/back_button.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/back_button.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/drawable/button_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/button_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/drawable/button_border.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/button_border.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/drawable/button_white.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/button_white.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/drawable/card_edge.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/card_edge.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/drawable/circle_back.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/circle_back.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/drawable/circle_background_qr_ticket.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/circle_background_qr_ticket.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/drawable/dmrc.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/dmrc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/drawable/drop_arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/drop_arrow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/drawable/header_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/header_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/drawable/ic_arrow_forward_24.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_arrow_forward_24.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/drawable/ic_baseline_account_circle_24.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/drawable/ic_baseline_arrow_back_24.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/drawable/ic_baseline_menu_24.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_menu_24.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/drawable/ic_my_ticket.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_my_ticket.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/drawable/ic_my_trips_24.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_my_trips_24.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/drawable/iconfinder_left_right_64.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/iconfinder_left_right_64.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/drawable/iconfinder_left_right_arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/iconfinder_left_right_arrow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/drawable/iconfinder_slice_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/iconfinder_slice_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/drawable/iconfinder_ticket_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/iconfinder_ticket_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/drawable/iconfinder_ticket_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/iconfinder_ticket_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/drawable/iconfinder_tickets_multple.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/iconfinder_tickets_multple.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/drawable/logout.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/logout.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/drawable/metro.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/metro.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/drawable/metro1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/metro1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/drawable/my_ticket.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/my_ticket.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/drawable/nxtgen.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/nxtgen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/drawable/penalty.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/penalty.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/drawable/radio_normal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/radio_normal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/drawable/radio_selected.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/radio_selected.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/drawable/radio_selector.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/radio_selector.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/drawable/radio_text_color.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/radio_text_color.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/drawable/regular_state.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/regular_state.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/drawable/rounded_corner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/rounded_corner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/drawable/selected_state.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/selected_state.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/drawable/side_nav_bar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/side_nav_bar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/drawable/spinner_border.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/spinner_border.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/drawable/spinner_mini.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/spinner_mini.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/drawable/ticket_book.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ticket_book.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/drawable/ticket_sek_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ticket_sek_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/font/begonia_regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/font/begonia_regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/font/caviar_dreams_bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/font/caviar_dreams_bold.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/font/caviar_dreams_regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/font/caviar_dreams_regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/font/cavier_dreams.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/font/cavier_dreams.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/layout/activity_change_password.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_change_password.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/layout/activity_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_detail.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/layout/activity_forget_password.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_forget_password.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/layout/activity_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/layout/activity_journey_preview.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_journey_preview.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/layout/activity_landing.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_landing.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/layout/activity_my_pass_q_r.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_my_pass_q_r.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/layout/activity_my_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_my_profile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/layout/activity_my_ticket_q_r.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_my_ticket_q_r.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/layout/activity_my_trips.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_my_trips.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/layout/activity_new_qr_book_ticket.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_new_qr_book_ticket.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/layout/activity_otp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_otp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/layout/activity_pass.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_pass.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/layout/activity_pass_preview.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_pass_preview.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/layout/activity_payment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_payment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/layout/activity_post_payment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_post_payment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/layout/activity_registration.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_registration.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/layout/activity_select_stops.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_select_stops.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/layout/activity_ticket_sel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_ticket_sel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/layout/activity_value_ticket.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_value_ticket.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/layout/activity_value_ticket_preview.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_value_ticket_preview.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/layout/activity_value_ticket_qr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_value_ticket_qr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/layout/bottomview.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/bottomview.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/layout/custom_window.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/custom_window.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/layout/footer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/footer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/layout/fragment_from.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_from.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/layout/fragment_to.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_to.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/layout/header.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/header.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/layout/item_my_trips.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_my_trips.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/layout/item_ticket_select.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_ticket_select.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/layout/navigation_header.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/navigation_header.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/layout/pass_element.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/pass_element.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/menu/menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/mipmap-mdpi/ic_launcher_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/navigation/nav_graph.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/values/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/ic_launcher_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusCustomerApplication/src/test/java/com/example/buscustomerapplicationv2/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/example/buscustomerapplicationv2/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Pixel_3a_XL_API_29]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -100,8 +338,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ApkExportedModule" value="Bus_Customer_Application.BusCustomerApplication" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Pixel_4_XL_API_27" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-03-25T15:09:03.700Z" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Pixel_3a_XL_API_29" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-04-18T14:33:01.228Z" />
     <property name="ExportApk.ApkPath" value="E:\Telpo\New folder\New folder\MetroApplication\app" />
     <property name="ExportApk.BuildVariants" value="debug" />
     <property name="ExportApk.SignV1" value="true" />
@@ -114,8 +352,8 @@
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/BusCustomerApplication/src/main/res/drawable" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/new DB" />
-    <property name="project.structure.last.edited" value="Dependencies" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -155,11 +393,11 @@
       <recent name="com.example.buscustomerapplicationv2.activity" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\MyNextgenProject\Bus_Customer_App_V2\BusCustomerApplication\src\main\res\layout-hdpi" />
+      <recent name="E:\MyNextgenProject\Bus_Customer_App_V2\BusCustomerApplication\src\main\java\com\example\buscustomerapplicationv2\models" />
       <recent name="E:\MyNextgenProject\Bus_Customer_App_V2\BusCustomerApplication\src\main\assets" />
       <recent name="E:\MyNextgenProject\Bus_Customer_App_V2\BusCustomerApplication\src\main\res\font" />
       <recent name="E:\MyNextgenProject\Bus_Customer_App_V2\BusCustomerApplication\src\main\res\drawable" />
-      <recent name="E:\MyNextgenProject\Bus_Customer_App_V2\BusCustomerApplication\src\main\res\drawable\" />
-      <recent name="E:\MyNextgenProject\Bus_Customer_App_V2\BusCustomerApplication\src\main\res\drawable-v24" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.example.buscustomerapplicationv2.models" />
@@ -237,7 +475,7 @@
       </method>
     </configuration>
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
-      <module name="Bus_Customer_Application.BusCustomerApplication" />
+      <module name="Bus_Customer_Application.app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
       <option name="DEPLOY_AS_INSTANT" value="false" />
@@ -617,7 +855,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616696765899</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="First Commit">
+      <created>1616698200821</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1616698200821</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -678,18 +923,18 @@
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="200" y="110" key="#PSD" timestamp="1613479159784">
+    <state x="200" y="110" key="#PSD" timestamp="1618762314960">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="200" y="110" key="#PSD/0.0.1366.728@0.0.1366.728" timestamp="1613479159784" />
-    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614323013895">
+    <state x="200" y="110" key="#PSD/0.0.1366.728@0.0.1366.728" timestamp="1618762314960" />
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1618762473262">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1614323013895" />
-    <state x="488" y="0" width="390" height="728" key="#com.intellij.ide.util.MemberChooser" timestamp="1616589753184">
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1618762473262" />
+    <state x="488" y="0" width="390" height="728" key="#com.intellij.ide.util.MemberChooser" timestamp="1616776572119">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="0" width="390" height="728" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1616589753184" />
+    <state x="488" y="0" width="390" height="728" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1616776572119" />
     <state x="363" y="99" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1616651389373">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -706,10 +951,6 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="340" y="245" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1366.728@0.0.1366.728" timestamp="1613581329250" />
-    <state x="109" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1608824024155">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="109" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1608824024155" />
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1613740893148">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -718,14 +959,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="440" y="213" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1613114003214" />
+    <state x="92" y="92" width="1182" height="544" key="AVDManager" timestamp="1618753663261">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="AVDManager/0.0.1366.728@0.0.1366.728" timestamp="1618753663261" />
     <state x="263" y="118" key="AndroidCreateResourceDirectoryDialog" timestamp="1613596551948">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="263" y="118" key="AndroidCreateResourceDirectoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1613596551948" />
-    <state x="263" y="119" key="AndroidCreateResourceFileDialog" timestamp="1614260118806">
+    <state x="263" y="119" key="AndroidCreateResourceFileDialog" timestamp="1618757015606">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="263" y="119" key="AndroidCreateResourceFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1614260118806" />
+    <state x="263" y="119" key="AndroidCreateResourceFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1618757015606" />
     <state x="527" y="149" key="AndroidCreateXmlResourceDialog" timestamp="1613664444634">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -734,42 +979,42 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="476" y="110" key="AndroidProcessChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1614259681596" />
-    <state x="145" y="0" key="CommitChangelistDialog2" timestamp="1616696763843">
+    <state x="145" y="0" key="CommitChangelistDialog2" timestamp="1616698199897">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="145" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1616696763843" />
+    <state x="145" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1616698199897" />
     <state x="363" y="118" key="Downloadable.Font.Dialog.Size" timestamp="1613986623259">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="363" y="118" key="Downloadable.Font.Dialog.Size/0.0.1366.728@0.0.1366.728" timestamp="1613986623259" />
-    <state x="462" y="106" key="FileChooserDialogImpl" timestamp="1616499668615">
+    <state x="462" y="106" key="FileChooserDialogImpl" timestamp="1618761361159">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="462" y="106" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1616499668615" />
-    <state width="1323" height="188" key="GridCell.Tab.0.bottom" timestamp="1616694615843">
+    <state x="462" y="106" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1618761361159" />
+    <state width="1323" height="188" key="GridCell.Tab.0.bottom" timestamp="1618755242762">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="188" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1616694615843" />
-    <state width="1323" height="188" key="GridCell.Tab.0.center" timestamp="1616694615842">
+    <state width="1323" height="188" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1618755242762" />
+    <state width="1323" height="188" key="GridCell.Tab.0.center" timestamp="1618755242761">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="188" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1616694615842" />
-    <state width="1323" height="188" key="GridCell.Tab.0.left" timestamp="1616694615842">
+    <state width="1323" height="188" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1618755242761" />
+    <state width="1323" height="188" key="GridCell.Tab.0.left" timestamp="1618755242761">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="188" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1616694615842" />
-    <state width="1323" height="188" key="GridCell.Tab.0.right" timestamp="1616694615842">
+    <state width="1323" height="188" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1618755242761" />
+    <state width="1323" height="188" key="GridCell.Tab.0.right" timestamp="1618755242762">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="188" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1616694615842" />
+    <state width="1323" height="188" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1618755242762" />
     <state x="144" y="0" key="SettingsEditor" timestamp="1616677434300">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="144" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1616677434300" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1616696775890">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1616698216636">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1616696775890" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1616698216636" />
     <state x="499" y="141" key="chooseDestDirectoryDialog" timestamp="1613468180030">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -786,10 +1031,6 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="dock-window-3/0.0.1366.728@0.0.1366.728" timestamp="1614265555192" />
-    <state width="602" height="367" key="javadoc.popup" timestamp="1609770469354">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="602" height="367" key="javadoc.popup/0.0.1366.728@0.0.1366.728" timestamp="1609770469354" />
     <state x="418" y="216" key="psd.add.jar.dependency.panel.dimension" timestamp="1613479150457">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -802,6 +1043,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="218" key="psd.choose.module.panel.dimension/0.0.1366.728@0.0.1366.728" timestamp="1613479147810" />
+    <state x="479" y="111" key="refactoring.ChangeSignatureDialog" timestamp="1618766712686">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="479" y="111" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1618766712686" />
     <state x="339" y="165" key="run.anything.popup" timestamp="1614096858725">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

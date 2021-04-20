@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.buscustomerapplicationv2">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/metro1"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/metro1"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+
+        tools:ignore="AllowBackup,UnusedAttribute">
+        <activity android:name=".activity.ValueTicketQr"
+            android:parentActivityName=".activity.LandingActivity"></activity>
+        <activity android:name=".activity.LandingActivity"
+            android:theme="@style/NewAppTheme"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.NewQrBookTicketActivity"
+            android:theme="@style/NewAppTheme"
+            android:parentActivityName=".activity.LandingActivity"/>
+        <activity
+            android:name=".activity.SelectStopsActivity"
+            android:theme="@style/NewAppTheme"
+            android:parentActivityName=".activity.LandingActivity"/>
+        <activity android:name=".activity.PaymentActivity" />
+        <activity android:name=".activity.TicketSelActivity" />
+        <activity android:name=".activity.DetailActivity" />
+        <activity android:name=".activity.ForgetPassword" />
+        <activity android:name=".activity.MyTripsActivity"
+            android:parentActivityName=".activity.LandingActivity"/>
+        <activity android:name=".activity.MyProfileActivity" />
+        <activity android:name=".activity.PostPaymentActivity" />
+        <activity android:name=".activity.PassActivity" />
+        <activity android:name=".activity.ValueTicketActivity" />
+        <activity android:name=".activity.PassPreviewActivity" />
+        <activity android:name=".activity.ValueTicketPreviewActivity" />
+        <activity android:name=".activity.JourneyPreviewActivity" />
+        <activity android:name=".activity.ChangePassword" />
+        <activity android:name=".activity.MyPassQR" />
+        <activity android:name=".activity.MyTicketQR" />
+        <activity android:name=".activity.HomeActivity" />
+        <activity android:name=".activity.OtpActivity" />
+        <activity android:name=".activity.RegistrationActivity" />
+        <activity android:name=".activity.LoginActivity">
+
+        </activity>
+        <activity android:name=".activity.MainActivity" />
+    </application>
+
+</manifest>

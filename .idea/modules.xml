@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Bus_Customer_Application.iml" filepath="$PROJECT_DIR$/.idea/modules/Bus_Customer_Application.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Bus_Customer_Application.BusCustomerApplication.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Bus_Customer_Application.BusCustomerApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Bus_Customer_Application.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Bus_Customer_Application.app.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/mylibraryencdec/Bus_Customer_Application.mylibraryencdec.iml" filepath="$PROJECT_DIR$/.idea/modules/mylibraryencdec/Bus_Customer_Application.mylibraryencdec.iml" />
     </modules>
   </component>

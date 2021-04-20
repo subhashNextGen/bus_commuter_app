@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.NewQrBookTicketActivity">
+
+    <LinearLayout
+        android:id="@+id/top_layout"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_height="wrap_content"
+        android:background="@color/dark_grey"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/my_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+
+            >
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="QR Ticket"
+                android:textStyle="bold"
+
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/large_text_size" />
+        </androidx.appcompat.widget.Toolbar>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/top_cardview"
+            style="@style/CustomCardTopViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="@dimen/qr_ticket_margin"
+            android:layout_marginEnd="30dp"
+            android:background="@color/buttonColor"
+            android:elevation="4dp"
+            android:foregroundGravity="bottom"
+            tools:targetApi="lollipop">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="4dp"
+                android:orientation="vertical"
+                tools:ignore="ExtraText">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:hint="From"
+                    android:textSize="@dimen/text_size" />
+
+                <TextView
+                    android:id="@+id/src"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:textStyle="bold"
+                    android:text="Source"
+                    android:textColor="@color/textColor"
+                    android:textSize="@dimen/large_text_size"/>
+
+                />
+                <!--            <view-->
+                <!--                android:layout_width="match_parent"-->
+                <!--                android:layout_height="1dp"-->
+                <!--                style="@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored"/>-->
+            </LinearLayout>
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/bottom_card"
+        style="@style/CustomCardBottomViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/top_layout"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/buttonColor"
+        android:elevation="4dp"
+        android:foregroundGravity="bottom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/top_layout"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:hint="To"
+                android:textSize="@dimen/text_size" />
+
+            <TextView
+                android:id="@+id/dest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:text="Dest"
+                android:textStyle="bold"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/large_text_size" />
+
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bottom_card"
+        android:layout_margin="@dimen/qr_ticket_margin"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.56"
+        tools:layout_editor_absoluteX="40dp">
+
+        <worker8.com.github.radiogroupplus.RadioGroupPlus
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@color/dark_grey"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/basic_margin"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/radio_single"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:paddingEnd="20dp"
+                    android:paddingStart="20dp"
+                    android:layout_marginBottom="@dimen/basic_margin"
+                    android:text="Single Journey"
+                    android:textColor="@color/textColor"
+                    android:textSize="20sp"
+                     />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/single_price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="price/Person"
+                        android:layout_marginLeft="45dp"
+                        android:textColor="@color/textColor"
+                        android:textSize="@dimen/text_size" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_margin="16dp"
+                android:background="@color/dark_grey" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/basic_margin"
+android:id="@+id/retur_radio_ll"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/radio_return"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingEnd="20dp"
+                    android:paddingStart="20dp"
+                    android:layout_marginBottom="@dimen/basic_margin"
+                    android:text="Return Journey"
+                    android:textColor="@color/textColor"
+                    android:textSize="20sp"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    >
+
+
+
+                    <TextView
+                        android:id="@+id/return_price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="price/Person"
+                        android:layout_marginStart="45dp"
+                        android:textColor="@color/textColor"
+                        android:textSize="@dimen/text_size" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </worker8.com.github.radiogroupplus.RadioGroupPlus>
+
+        <Button
+            android:id="@+id/proceed_pay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/qr_ticket_margin"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="@dimen/qr_ticket_margin"
+            android:textStyle="bold"
+            android:background="@drawable/button_border"
+            android:text="Proceed to Pay "
+            android:textAllCaps="false"
+            android:textColor="@color/buttonColor"
+            android:textSize="@dimen/text_size" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/basic_margin"
+            android:gravity="center"
+            android:text="The validity of ticket starts from the time of ticket generate"
+            android:textColor="@color/textColor" />
+    </LinearLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/change_btn"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:background="@drawable/circle_back"
+        android:layout_below="@id/top_layout"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-19dp"
+        android:layout_marginEnd="40dp"
+        android:elevation="6dp"
+        android:src="@drawable/iconfinder_left_right_64"
+         />
+
+</RelativeLayout>
