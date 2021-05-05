@@ -19,6 +19,8 @@ import com.example.buscustomerapplicationv2.models.Model_ListSjt_ResponsePayload
 import com.example.buscustomerapplicationv2.myDataBase.MYdb;
 import com.example.buscustomerapplicationv2.utils.CustomTypeface;
 import com.example.buscustomerapplicationv2.utils.QRGenerator;
+import com.example.buscustomerapplicationv2.utils.TicketType;
+import com.example.buscustomerapplicationv2.utils.types;
 import com.subhasha.mylibraryencdec.AESUtil;
 
 import java.util.Objects;
@@ -39,6 +41,7 @@ public class MyTicketQR extends AppCompatActivity {
     RelativeLayout qrRjtlayout;
     TextView tkttypetv, tktSrctv, tktDesttv, tktfaretv, tktValidtv;
     TextView sjtText, rjtText;
+    TextView status;
     SpotsDialog spotsDialog;
     MYdb db;
 
@@ -60,11 +63,7 @@ public class MyTicketQR extends AppCompatActivity {
 //        );
         setContentView(R.layout.activity_my_ticket_q_r);
 
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
-            Objects.requireNonNull(getSupportActionBar()).setTitle("My Ticket");
-        } else {
-            getSupportActionBar().setTitle("My Ticket");
-        }
+        Objects.requireNonNull(getSupportActionBar()).setTitle("My Ticket");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 
@@ -89,6 +88,7 @@ public class MyTicketQR extends AppCompatActivity {
         qrRjtlayout = findViewById(R.id.rjt_qr_layout);
         sjtText = findViewById(R.id.sjt_scan);
         rjtText = findViewById(R.id.rjt_scan);
+        status=findViewById(R.id.status);
 
         if (ticket.isRjt_booked()) {
             rjtLayout.setVisibility(View.VISIBLE);
@@ -96,13 +96,14 @@ public class MyTicketQR extends AppCompatActivity {
         }
 
 
-
+status.setText(getIntent().getStringExtra("status"));
         sjtText.setTypeface(new CustomTypeface(this).getTypeface());
         rjtText.setTypeface(new CustomTypeface(this).getTypeface());
         scanQRSjt.setTypeface(new CustomTypeface(this).getTypeface());
         scanQRRjt.setTypeface(new CustomTypeface(this).getTypeface());
-        String qrText = ticket.getSjt_qrcode() + "-T-SJT";
-        String qrTextrjt = ticket.getRjt_qrcode() + "-T-RJT";
+
+        String qrText = ticket.getSjt_qrcode() + TicketType.tTypes(types.SJT);
+        String qrTextrjt = ticket.getRjt_qrcode() + TicketType.tTypes(types.RJT);
         try {
             encryptedQRSjt = AESUtil.encryptValue(qrText);
             encryptedQRRjt = AESUtil.encryptValue(qrTextrjt);
