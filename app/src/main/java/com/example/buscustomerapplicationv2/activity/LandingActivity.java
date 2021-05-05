@@ -32,15 +32,13 @@ import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
 
 public class LandingActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
-    CardView cv1, cv2, cv3;
+    CardView cv1, cv2, cv3, cv4;
     DrawerLayout drawerLayout;
     NavigationView navigationView;
     Toolbar toolbar;
     ActionBarDrawerToggle toggle;
     PermissionManagerUtil permissionManagerUtil;
     ConnectionDetector cd;
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -57,6 +55,7 @@ public class LandingActivity extends AppCompatActivity implements NavigationView
         cv1 = findViewById(R.id.card_view_1);
         cv2 = findViewById(R.id.card_view_2);
         cv3 = findViewById(R.id.card_view_3);
+        cv4=findViewById(R.id.card_view_4);
         drawerLayout = findViewById(R.id.drawer_layout);
         navigationView = findViewById(R.id.nav_landing_view);
         toolbar = findViewById(R.id.my_toolbar);
@@ -70,7 +69,6 @@ public class LandingActivity extends AppCompatActivity implements NavigationView
                 R.string.nav_drawer_close);
         drawerLayout.addDrawerListener(toggle);
         toggle.syncState();
-
 
         cv1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -103,6 +101,16 @@ public class LandingActivity extends AppCompatActivity implements NavigationView
             }
         });
 
+        cv4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                if (cd.isConnectingToInternet()) {
+                    startActivity(new Intent(LandingActivity.this, SelectPassActivity.class));
+                } else
+                    onError();
+            }
+        });
 
     }
 
@@ -121,6 +129,7 @@ public class LandingActivity extends AppCompatActivity implements NavigationView
                 case R.id.action_mytrip:
                     //Need to update
 //                Toast.makeText(this, "Need to update", Toast.LENGTH_LONG).show();
+
                     startActivity(new Intent(LandingActivity.this, MyTripsActivity.class));
                     break;
                 case R.id.action_value_pass_history:

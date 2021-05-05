@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
+import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -90,7 +91,6 @@ public class TicketSelActivity extends AppCompatActivity {
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(TicketSelActivity.this);
         linearLayoutManager.setOrientation(LinearLayoutManager.VERTICAL);
         DividerItemDecoration dividerItemDecoration = new DividerItemDecoration(recyclerView.getContext(), linearLayoutManager.getOrientation());
-        recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(linearLayoutManager);
         recyclerView.addItemDecoration(dividerItemDecoration);
         recyclerView.setAdapter(adapter);
@@ -102,6 +102,8 @@ public class TicketSelActivity extends AppCompatActivity {
                 Model_ListSjt_ResponsePayload ticket = list.get(position);
                 Intent intent = new Intent(TicketSelActivity.this, MyTicketQR.class);
                 intent.putExtra("data", ticket);
+               TextView statusTV= v.findViewById(R.id.status_mytrips);
+                intent.putExtra("status", statusTV.getText().toString());
                 intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(intent);
             }

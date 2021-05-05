@@ -22,6 +22,7 @@ import java.util.List;
 
 
 public class MyTicketAdapter extends RecyclerView.Adapter<MyTicketAdapter.ViewHolder> {
+
     private static final String TAG = MyTicketAdapter.class.getSimpleName() ;
     private final Context context;
     private final List<Model_ListSjt_ResponsePayload> list;
@@ -102,7 +103,6 @@ public class MyTicketAdapter extends RecyclerView.Adapter<MyTicketAdapter.ViewHo
                 {
                     holder.status.setText("Valid");
                 }
-
             }else
             {
                 if (!myTick.isEntry_available() && !myTick.isExit_available()){

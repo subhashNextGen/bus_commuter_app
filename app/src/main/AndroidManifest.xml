@@ -15,13 +15,14 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
-
         tools:ignore="AllowBackup,UnusedAttribute">
-        <activity android:name=".activity.ValueTicketQr"
-            android:parentActivityName=".activity.LandingActivity"></activity>
-        <activity android:name=".activity.LandingActivity"
-            android:theme="@style/NewAppTheme"
-            >
+        <activity android:name=".activity.SelectPassActivity"></activity>
+        <activity
+            android:name=".activity.ValueTicketQr"
+            android:parentActivityName=".activity.LandingActivity" />
+        <activity
+            android:name=".activity.LandingActivity"
+            android:theme="@style/NewAppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -30,18 +31,19 @@
         </activity>
         <activity
             android:name=".activity.NewQrBookTicketActivity"
-            android:theme="@style/NewAppTheme"
-            android:parentActivityName=".activity.LandingActivity"/>
+            android:parentActivityName=".activity.LandingActivity"
+            android:theme="@style/NewAppTheme" />
         <activity
             android:name=".activity.SelectStopsActivity"
-            android:theme="@style/NewAppTheme"
-            android:parentActivityName=".activity.LandingActivity"/>
+            android:parentActivityName=".activity.LandingActivity"
+            android:theme="@style/NewAppTheme" />
         <activity android:name=".activity.PaymentActivity" />
         <activity android:name=".activity.TicketSelActivity" />
         <activity android:name=".activity.DetailActivity" />
         <activity android:name=".activity.ForgetPassword" />
-        <activity android:name=".activity.MyTripsActivity"
-            android:parentActivityName=".activity.LandingActivity"/>
+        <activity
+            android:name=".activity.MyTripsActivity"
+            android:parentActivityName=".activity.LandingActivity" />
         <activity android:name=".activity.MyProfileActivity" />
         <activity android:name=".activity.PostPaymentActivity" />
         <activity android:name=".activity.PassActivity" />
@@ -55,9 +57,7 @@
         <activity android:name=".activity.HomeActivity" />
         <activity android:name=".activity.OtpActivity" />
         <activity android:name=".activity.RegistrationActivity" />
-        <activity android:name=".activity.LoginActivity">
-
-        </activity>
+        <activity android:name=".activity.LoginActivity"></activity>
         <activity android:name=".activity.MainActivity" />
     </application>
 

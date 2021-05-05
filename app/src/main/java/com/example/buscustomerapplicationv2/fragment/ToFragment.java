@@ -18,7 +18,7 @@ import androidx.fragment.app.Fragment;
 
 import com.example.buscustomerapplicationv2.R;
 import com.example.buscustomerapplicationv2.activity.NewQrBookTicketActivity;
-import com.example.buscustomerapplicationv2.adapter.MyArrayAdapter;
+
 
 import java.util.ArrayList;
 

@@ -12,6 +12,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.buscustomerapplicationv2.R;
 import com.example.buscustomerapplicationv2.models.Model_WalletBalanceResponse;
 import com.example.buscustomerapplicationv2.utils.QRGenerator;
+import com.example.buscustomerapplicationv2.utils.TicketType;
+import com.example.buscustomerapplicationv2.utils.types;
 
 public class ValueTicketQr extends AppCompatActivity {
     ImageView imageViewQr;
@@ -32,7 +34,10 @@ public class ValueTicketQr extends AppCompatActivity {
         model_walletBalanceResponse = (Model_WalletBalanceResponse) getIntent().getSerializableExtra("data");
         qr = new QRGenerator();
 
-        qr.createQR(model_walletBalanceResponse.getPayload().getWallet_qr_code(),imageViewQr);
+        String qrString=model_walletBalanceResponse.getPayload().getWallet_qr_code() +  TicketType.tTypes(types.ValueTicket);;
+
+
+        qr.createQR(qrString,imageViewQr);
 
         balanceText.setText(model_walletBalanceResponse.getPayload().getWallet_balance());
         lastUpdateText.setText(model_walletBalanceResponse.getPayload().getLast_updated_on());
